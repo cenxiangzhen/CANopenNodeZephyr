@@ -5,7 +5,12 @@ if(CONFIG_CANOPENNODE)
 
   zephyr_include_directories(
     CANopenNode
-    CANopenNode/stack
+    CANopenNode/301
+    CANopenNode/303
+    CANopenNode/304
+    CANopenNode/305
+    CANopenNode/309
+    CANopenNode/extra
     include
   )
 
